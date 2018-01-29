@@ -40,17 +40,29 @@ Main Style css
     position:relative;
 }
 
+
 /**
 CLOUDS!
  */
 .cloud {
     height: 750px;
     width: 950px;
-    margin-left: -8.5vw;
-    margin-top: 10vh;
+    /*margin-left: -8.5vw;*/
+    /*margin-top: 10vh;*/
+    /*margin-top: -2vh;*/
     z-index: -100;
     animation: scale 1.5s ease-in-out forwards infinite;
 }
+.cloud2 {
+    height: 750px;
+    width: 950px;
+    /*margin-left: -8.5vw;*/
+    /*margin-top: 10vh;*/
+    /*margin-top: -2vh;*/
+    z-index: -100;
+    animation: scale 1.5s ease-in-out forwards infinite;
+}
+
 .subCloud1 {
     position: absolute;
     height: 210px;
@@ -163,8 +175,10 @@ Animation css
  */
 .mainAnim1, .mainAnim2, .mainAnim3, .mainAnim4, .mainAnim5 {
     position: absolute;
-    margin-top: 40vh;
-    margin-left: 13vw;
+    margin-top: 27vh;
+    /*margin-top: 40vh;*/
+    margin-left: 22vw;
+    /*margin-left: 13vw;*/
     width: 150px;
     height: 150px;
     z-index: 100;
@@ -260,3 +274,58 @@ Animation css
     width: 150px;
     height: 150px;
 }
+
+/**
+SLICK
+ */
+.outer {
+
+}
+.car {
+    margin-top: 100px;
+    margin-left: 50px;
+}
+.cloudArea {
+}
+.summaryJae {
+    position: absolute;
+    margin-top: -60vh;
+    margin-left:20vw;
+}
+.summaryJae h1 {
+    color: #464646;
+    font-family: 'Raleway', sans-serif;
+    font-size: 60px;
+}
+.summaryJae p {
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+.picture {
+    position: absolute;
+    height: 270px;
+    margin-left: -240px;
+    margin-top: -320px;
+}
+.indentList {
+    margin-left: 50px;
+    margin-top: -30px;
+}
+.dotMe {
+    height: 80px;
+    margin-left: -10px;
+    margin-top: 60px;
+}
+.dotBrain {
+    margin-left: -120px;
+    margin-top: 15px;
+    position: absolute;
+}
+.dotBrainHome {
+    position: absolute;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    margin-left: -120px;
+    margin-top: 30px;
+}
+
