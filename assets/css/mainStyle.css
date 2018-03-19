@@ -7,7 +7,7 @@ Main Style css
     font-size: 80px;
     font-family: 'Raleway', sans-serif;
     margin-left: 8vw;
-    margin-top: 5vh;
+    margin-top: 60px;
     font-weight: 100;
 }
 .titleName {
@@ -15,7 +15,7 @@ Main Style css
     font-family: 'Give You Glory', cursive;
     font-size: 110px;
     margin-left: 10vw;
-    margin-top: 18vh;
+    margin-top: 170px;
     color: #464646;
 }
 .sub {
@@ -47,18 +47,12 @@ CLOUDS!
 .cloud {
     height: 750px;
     width: 950px;
-    /*margin-left: -8.5vw;*/
-    /*margin-top: 10vh;*/
-    /*margin-top: -2vh;*/
     z-index: -100;
     animation: scale 1.5s ease-in-out forwards infinite;
 }
 .cloud2 {
     height: 750px;
     width: 950px;
-    /*margin-left: -8.5vw;*/
-    /*margin-top: 10vh;*/
-    /*margin-top: -2vh;*/
     z-index: -100;
     animation: scale 1.5s ease-in-out forwards infinite;
 }
@@ -175,9 +169,9 @@ Animation css
  */
 .mainAnim1, .mainAnim2, .mainAnim3, .mainAnim4, .mainAnim5 {
     position: absolute;
-    margin-top: 27vh;
-    /*margin-top: 40vh;*/
-    margin-left: 22vw;
+    margin-top: 290px;
+    /*margin-top: 30vh;*/
+    margin-left: 24vw;
     /*margin-left: 13vw;*/
     width: 150px;
     height: 150px;
@@ -192,13 +186,6 @@ Animation css
 /* future: add cool timing to circling aimation */
 .mainAnim1 {animation: thinkSpin1 15s linear infinite;}
 @keyframes thinkSpin1 {
-    /*
-    0%  { transform: rotate(0deg) translateX(150px) rotate(0deg) scale(0.75); }
-    25%  { transform: rotate(90deg) translateX(150px) rotate(-90deg) scale(1); }
-    50%  { transform: rotate(180deg) translateX(150px) rotate(-180deg) scale(0.75); }
-    75%  { transform: rotate(270deg) translateX(150px) rotate(-270deg) scale(.6); }
-    100%  { transform: rotate(360deg) translateX(150px) rotate(-360deg) scale(0.75); }
-    */
     0%  { transform: rotate(0deg) translateX(210px) rotate(0deg) scale(0.75); }
     20%  { transform: rotate(72deg) translateX(210px) rotate(-72deg) scale(0.95); }
     40%  { transform: rotate(144deg) translateX(210px) rotate(-144deg) scale(0.85); }
@@ -207,13 +194,7 @@ Animation css
     100%  { transform: rotate(360deg) translateX(210px) rotate(-360deg) scale(0.75); }
 }
 .mainAnim2 {animation: thinkSpin2 15s linear infinite;}
-@keyframes thinkSpin2 {/*
-    0%  { transform: rotate(90deg) translateX(150px) rotate(-90deg) scale(1); }
-    25%  { transform: rotate(180deg) translateX(150px) rotate(-180deg) scale(0.75); }
-    50%  { transform: rotate(270deg) translateX(150px) rotate(-270deg) scale(0.60); }
-    75%  { transform: rotate(360deg) translateX(150px) rotate(-360deg) scale(0.75); }
-    100%  { transform: rotate(450deg) translateX(150px) rotate(-450deg) scale(1); }
-    */
+@keyframes thinkSpin2 {
     0%  { transform: rotate(72deg) translateX(210px) rotate(-72deg) scale(0.95); }
     20%  { transform: rotate(144deg) translateX(210px) rotate(-144deg) scale(0.85); }
     40%  { transform: rotate(216deg) translateX(210px) rotate(-216deg) scale(0.68); }
@@ -223,13 +204,6 @@ Animation css
 }
 .mainAnim3 {animation: thinkSpin3 15s linear infinite;}
 @keyframes thinkSpin3 {
-    /*
-    0%  { transform: rotate(180deg) translateX(150px) rotate(-180deg) scale(0.75); }
-    25%  { transform: rotate(270deg) translateX(150px) rotate(-270deg) scale(0.60); }
-    50%  { transform: rotate(360deg) translateX(150px) rotate(-360deg) scale(0.75); }
-    75%  { transform: rotate(450deg) translateX(150px) rotate(-450deg) scale(1); }
-    100%  { transform: rotate(540deg) translateX(150px) rotate(-540deg) scale(0.75); }
-    */
     0%  { transform: rotate(144deg) translateX(210px) rotate(-144deg) scale(0.85); }
     20%  { transform: rotate(216deg) translateX(210px) rotate(-216deg) scale(0.68); }
     40%  { transform: rotate(288deg) translateX(210px) rotate(-288deg) scale(0.63); }
@@ -239,13 +213,6 @@ Animation css
 }
 .mainAnim4 {animation: thinkSpin4 15s linear infinite;}
 @keyframes thinkSpin4 {
-    /*
-    0%  { transform: rotate(270deg) translateX(150px) rotate(-270deg) scale(0.60); }
-    25%  { transform: rotate(360deg) translateX(150px) rotate(-360deg) scale(0.75); }
-    50%  { transform: rotate(450deg) translateX(150px) rotate(-450deg) scale(1); }
-    75%  { transform: rotate(540deg) translateX(150px) rotate(-540deg) scale(0.75); }
-    100%  { transform: rotate(630deg) translateX(150px) rotate(-630deg) scale(0.6); }
-    */
     0%  { transform: rotate(216deg) translateX(210px) rotate(-216deg) scale(0.68); }
     20%  { transform: rotate(288deg) translateX(210px) rotate(-288deg) scale(0.63); }
     40%  { transform: rotate(360deg) translateX(210px) rotate(-360deg) scale(0.75); }
@@ -282,14 +249,14 @@ SLICK
 
 }
 .car {
-    margin-top: 100px;
+    margin-top: 65px;
     margin-left: 50px;
 }
 .cloudArea {
 }
 .summaryJae {
     position: absolute;
-    margin-top: -60vh;
+    margin-top: -67vh;
     margin-left:20vw;
 }
 .summaryJae h1 {
@@ -329,3 +296,349 @@ SLICK
     margin-top: 30px;
 }
 
+/*************************
+**ALL THE MEDIA QUERIES!**
+*************************/
+@media only screen and (max-height: 892px) {
+    .row {
+        height: 929px;
+    }
+}
+@media only screen and (max-width: 1753px) {
+    .cloud {
+        height: 650px;
+        width: 800px;
+        margin-top: 0px;
+    }
+    .mainAnim1, .mainAnim2, .mainAnim3, .mainAnim4, .mainAnim5 {
+        margin-top: 240px;
+        margin-left: 21vw;
+    }
+    .subCloud1 {
+        margin-left: 610px;
+        height: 190px;
+        width: 240px;
+    }
+    .dotMe {
+        height: 80px;
+        margin-top: -70px;
+    }
+    .dotBrain {
+        margin-top: -45px;
+        position: absolute;
+    }
+    .dotBrainHome {
+        position: absolute;
+        font-family: 'Raleway', sans-serif;
+        font-size: 30px;
+        margin-left: -120px;
+        margin-top: -30px;
+    }
+    .subCloud2 {
+        margin-left: 540px;
+        height: 110px;
+        width: 140px;
+    }
+    .subCloud3 {
+        display: none;
+    }
+
+    .mainAnim1 {animation: thinkSpin1 15s linear infinite;}
+    @keyframes thinkSpin1 {
+        0%  { transform: rotate(0deg) translateX(170px) rotate(0deg) scale(0.75); }
+        20%  { transform: rotate(72deg) translateX(170px) rotate(-72deg) scale(0.95); }
+        40%  { transform: rotate(144deg) translateX(170px) rotate(-144deg) scale(0.85); }
+        60%  { transform: rotate(216deg) translateX(170px) rotate(-216deg) scale(.68); }
+        80%  { transform: rotate(288deg) translateX(170px) rotate(-288deg) scale(0.63); }
+        100%  { transform: rotate(360deg) translateX(170px) rotate(-360deg) scale(0.75); }
+    }
+    .mainAnim2 {animation: thinkSpin2 15s linear infinite;}
+    @keyframes thinkSpin2 {
+        0%  { transform: rotate(72deg) translateX(170px) rotate(-72deg) scale(0.95); }
+        20%  { transform: rotate(144deg) translateX(170px) rotate(-144deg) scale(0.85); }
+        40%  { transform: rotate(216deg) translateX(170px) rotate(-216deg) scale(0.68); }
+        60%  { transform: rotate(288deg) translateX(170px) rotate(-288deg) scale(.63); }
+        80%  { transform: rotate(360deg) translateX(170px) rotate(-360deg) scale(0.75); }
+        100%  { transform: rotate(432deg) translateX(170px) rotate(-432deg) scale(0.95); }
+    }
+    .mainAnim3 {animation: thinkSpin3 15s linear infinite;}
+    @keyframes thinkSpin3 {
+        0%  { transform: rotate(144deg) translateX(170px) rotate(-144deg) scale(0.85); }
+        20%  { transform: rotate(216deg) translateX(170px) rotate(-216deg) scale(0.68); }
+        40%  { transform: rotate(288deg) translateX(170px) rotate(-288deg) scale(0.63); }
+        60%  { transform: rotate(360deg) translateX(170px) rotate(-360deg) scale(.75); }
+        80%  { transform: rotate(432deg) translateX(170px) rotate(-432deg) scale(0.95); }
+        100%  { transform: rotate(504deg) translateX(170px) rotate(-504deg) scale(0.85); }
+    }
+    .mainAnim4 {animation: thinkSpin4 15s linear infinite;}
+    @keyframes thinkSpin4 {
+        0%  { transform: rotate(216deg) translateX(170px) rotate(-216deg) scale(0.68); }
+        20%  { transform: rotate(288deg) translateX(170px) rotate(-288deg) scale(0.63); }
+        40%  { transform: rotate(360deg) translateX(170px) rotate(-360deg) scale(0.75); }
+        60%  { transform: rotate(432deg) translateX(170px) rotate(-432deg) scale(.95); }
+        80%  { transform: rotate(504deg) translateX(170px) rotate(-504deg) scale(0.85); }
+        100%  { transform: rotate(576deg) translateX(170px) rotate(-576deg) scale(0.68); }
+    }
+    .mainAnim5 {animation: thinkSpin5 15s linear infinite;}
+    @keyframes thinkSpin5 {
+        0%  { transform: rotate(288deg) translateX(170px) rotate(-288deg) scale(0.63); }
+        20%  { transform: rotate(360deg) translateX(170px) rotate(-360deg) scale(0.75); }
+        40%  { transform: rotate(432deg) translateX(170px) rotate(-432deg) scale(0.95); }
+        60%  { transform: rotate(504deg) translateX(170px) rotate(-504deg) scale(.85); }
+        80%  { transform: rotate(576deg) translateX(170px) rotate(-576deg) scale(0.68); }
+        100%  { transform: rotate(648deg) translateX(170px) rotate(-648deg) scale(0.63); }
+    }
+}
+@media only screen and (max-width: 1600px) {
+    .subCloud1 {
+        margin-left: 580px;
+        height: 190px;
+        width: 240px;
+    }
+    .subCloud2 {
+        margin-left: 520px;
+        height: 110px;
+        width: 140px;
+    }
+}
+@media only screen and (max-width: 1500px) {
+    .cloud {
+        height: 600px;
+        width: 720px;
+        margin-top: 0px;
+    }
+    .mainAnim1, .mainAnim2, .mainAnim3, .mainAnim4, .mainAnim5 {
+        margin-top: 230px;
+        margin-left: 22vw;
+    }
+    .subCloud1 {
+        margin-top: -300px;
+        margin-left: 545px;
+        height: 160px;
+        width: 200px;
+    }
+    .subCloud2 {
+        margin-left: 500px;
+        height: 90px;
+        width: 120px;
+    }
+    .dotMe {
+        height: 80px;
+        margin-top: -170px;
+    }
+    .dotBrain {
+        margin-top: -95px;
+        position: absolute;
+    }
+    .dotBrainHome {
+        position: absolute;
+        font-family: 'Raleway', sans-serif;
+        font-size: 30px;
+        margin-left: -120px;
+        margin-top: -80px;
+    }
+}
+
+@media only screen and (max-width: 1362px) {
+    .cloud {
+        height: 525px;
+        width: 620px;
+        margin-top: 0px;
+    }
+    .subCloud1 {
+        margin-top: -360px;
+        margin-left: 520px;
+        height: 130px;
+        width: 160px;
+    }
+    .subCloud2 {
+        margin-left: 480px;
+        margin-top: -268px;
+        height: 70px;
+        width: 100px;
+    }
+    .mainAnim1, .mainAnim2, .mainAnim3, .mainAnim4, .mainAnim5 {
+        margin-top: 190px;
+        margin-left: 21vw;
+        width: 90px;
+        height: 90px;
+    }
+    .dotMe {
+        height: 80px;
+        margin-top: -280px;
+    }
+    .dotBrain {
+        margin-top: -155px;
+        position: absolute;
+    }
+    .dotBrainHome {
+        position: absolute;
+        font-family: 'Raleway', sans-serif;
+        font-size: 30px;
+        margin-left: -120px;
+        margin-top: -140px;
+    }
+
+    .mainAnim1 {animation: thinkSpin1 15s linear infinite;}
+    @keyframes thinkSpin1 {
+        0%  { transform: rotate(0deg) translateX(130px) rotate(0deg) scale(0.75); }
+        20%  { transform: rotate(72deg) translateX(130px) rotate(-72deg) scale(0.95); }
+        40%  { transform: rotate(144deg) translateX(130px) rotate(-144deg) scale(0.85); }
+        60%  { transform: rotate(216deg) translateX(130px) rotate(-216deg) scale(.68); }
+        80%  { transform: rotate(288deg) translateX(130px) rotate(-288deg) scale(0.63); }
+        100%  { transform: rotate(360deg) translateX(130px) rotate(-360deg) scale(0.75); }
+    }
+    .mainAnim2 {animation: thinkSpin2 15s linear infinite;}
+    @keyframes thinkSpin2 {
+        0%  { transform: rotate(72deg) translateX(130px) rotate(-72deg) scale(0.95); }
+        20%  { transform: rotate(144deg) translateX(130px) rotate(-144deg) scale(0.85); }
+        40%  { transform: rotate(216deg) translateX(130px) rotate(-216deg) scale(0.68); }
+        60%  { transform: rotate(288deg) translateX(130px) rotate(-288deg) scale(.63); }
+        80%  { transform: rotate(360deg) translateX(130px) rotate(-360deg) scale(0.75); }
+        100%  { transform: rotate(432deg) translateX(130px) rotate(-432deg) scale(0.95); }
+    }
+    .mainAnim3 {animation: thinkSpin3 15s linear infinite;}
+    @keyframes thinkSpin3 {
+        0%  { transform: rotate(144deg) translateX(130px) rotate(-144deg) scale(0.85); }
+        20%  { transform: rotate(216deg) translateX(130px) rotate(-216deg) scale(0.68); }
+        40%  { transform: rotate(288deg) translateX(130px) rotate(-288deg) scale(0.63); }
+        60%  { transform: rotate(360deg) translateX(130px) rotate(-360deg) scale(.75); }
+        80%  { transform: rotate(432deg) translateX(130px) rotate(-432deg) scale(0.95); }
+        100%  { transform: rotate(504deg) translateX(130px) rotate(-504deg) scale(0.85); }
+    }
+    .mainAnim4 {animation: thinkSpin4 15s linear infinite;}
+    @keyframes thinkSpin4 {
+        0%  { transform: rotate(216deg) translateX(130px) rotate(-216deg) scale(0.68); }
+        20%  { transform: rotate(288deg) translateX(130px) rotate(-288deg) scale(0.63); }
+        40%  { transform: rotate(360deg) translateX(130px) rotate(-360deg) scale(0.75); }
+        60%  { transform: rotate(432deg) translateX(130px) rotate(-432deg) scale(.95); }
+        80%  { transform: rotate(504deg) translateX(130px) rotate(-504deg) scale(0.85); }
+        100%  { transform: rotate(576deg) translateX(130px) rotate(-576deg) scale(0.68); }
+    }
+    .mainAnim5 {animation: thinkSpin5 15s linear infinite;}
+    @keyframes thinkSpin5 {
+        0%  { transform: rotate(288deg) translateX(130px) rotate(-288deg) scale(0.63); }
+        20%  { transform: rotate(360deg) translateX(130px) rotate(-360deg) scale(0.75); }
+        40%  { transform: rotate(432deg) translateX(130px) rotate(-432deg) scale(0.95); }
+        60%  { transform: rotate(504deg) translateX(130px) rotate(-504deg) scale(.85); }
+        80%  { transform: rotate(576deg) translateX(130px) rotate(-576deg) scale(0.68); }
+        100%  { transform: rotate(648deg) translateX(130px) rotate(-648deg) scale(0.63); }
+    }
+}
+
+@media only screen and (max-width: 1196px) {
+    .title {
+        position:absolute;
+        color: #464646;
+        font-size: 65px;
+        font-family: 'Raleway', sans-serif;
+        margin-left: 4vw;
+        margin-top: 80px;
+        font-weight: 100;
+    }
+    .titleName {
+        position:absolute;
+        font-family: 'Give You Glory', cursive;
+        font-size: 100px;
+        margin-left: 8vw;
+        margin-top: 190px;
+        color: #464646;
+    }
+    .brainArea {
+        margin-left: -255px;
+    }
+    .cloud {
+        height: 430px;
+        width: 520px;
+        margin-top: 90px;
+    }
+    .subCloud1 {
+        margin-top: -350px;
+        margin-left: 430px;
+        height: 130px;
+        width: 160px;
+    }
+    .subCloud2 {
+        margin-left: 400px;
+        margin-top: -258px;
+        height: 70px;
+        width: 100px;
+    }
+    .mainAnim1, .mainAnim2, .mainAnim3, .mainAnim4, .mainAnim5 {
+        margin-top: 260px;
+        margin-left: 21vw;
+    }
+    .thinkIcon1, .thinkIcon2, .thinkIcon4, .thinkIcon5, .thinkIcon3 {
+        width: 110px;
+        height: 110px;
+    }
+    .mainAnim1 {animation: thinkSpin1 15s linear infinite;}
+    @keyframes thinkSpin1 {
+        0%  { transform: rotate(0deg) translateX(110px) rotate(0deg) scale(0.75); }
+        20%  { transform: rotate(72deg) translateX(110px) rotate(-72deg) scale(0.95); }
+        40%  { transform: rotate(144deg) translateX(110px) rotate(-144deg) scale(0.85); }
+        60%  { transform: rotate(216deg) translateX(110px) rotate(-216deg) scale(.68); }
+        80%  { transform: rotate(288deg) translateX(110px) rotate(-288deg) scale(0.63); }
+        100%  { transform: rotate(360deg) translateX(110px) rotate(-360deg) scale(0.75); }
+    }
+    .mainAnim2 {animation: thinkSpin2 15s linear infinite;}
+    @keyframes thinkSpin2 {
+        0%  { transform: rotate(72deg) translateX(110px) rotate(-72deg) scale(0.95); }
+        20%  { transform: rotate(144deg) translateX(110px) rotate(-144deg) scale(0.85); }
+        40%  { transform: rotate(216deg) translateX(110px) rotate(-216deg) scale(0.68); }
+        60%  { transform: rotate(288deg) translateX(110px) rotate(-288deg) scale(.63); }
+        80%  { transform: rotate(360deg) translateX(110px) rotate(-360deg) scale(0.75); }
+        100%  { transform: rotate(432deg) translateX(110px) rotate(-432deg) scale(0.95); }
+    }
+    .mainAnim3 {animation: thinkSpin3 15s linear infinite;}
+    @keyframes thinkSpin3 {
+        0%  { transform: rotate(144deg) translateX(110px) rotate(-144deg) scale(0.85); }
+        20%  { transform: rotate(216deg) translateX(110px) rotate(-216deg) scale(0.68); }
+        40%  { transform: rotate(288deg) translateX(110px) rotate(-288deg) scale(0.63); }
+        60%  { transform: rotate(360deg) translateX(110px) rotate(-360deg) scale(.75); }
+        80%  { transform: rotate(432deg) translateX(110px) rotate(-432deg) scale(0.95); }
+        100%  { transform: rotate(504deg) translateX(110px) rotate(-504deg) scale(0.85); }
+    }
+    .mainAnim4 {animation: thinkSpin4 15s linear infinite;}
+    @keyframes thinkSpin4 {
+        0%  { transform: rotate(216deg) translateX(110px) rotate(-216deg) scale(0.68); }
+        20%  { transform: rotate(288deg) translateX(110px) rotate(-288deg) scale(0.63); }
+        40%  { transform: rotate(360deg) translateX(110px) rotate(-360deg) scale(0.75); }
+        60%  { transform: rotate(432deg) translateX(110px) rotate(-432deg) scale(.95); }
+        80%  { transform: rotate(504deg) translateX(110px) rotate(-504deg) scale(0.85); }
+        100%  { transform: rotate(576deg) translateX(110px) rotate(-576deg) scale(0.68); }
+    }
+    .mainAnim5 {animation: thinkSpin5 15s linear infinite;}
+    @keyframes thinkSpin5 {
+        0%  { transform: rotate(288deg) translateX(130px) rotate(-288deg) scale(0.63); }
+        20%  { transform: rotate(360deg) translateX(130px) rotate(-360deg) scale(0.75); }
+        40%  { transform: rotate(432deg) translateX(130px) rotate(-432deg) scale(0.95); }
+        60%  { transform: rotate(504deg) translateX(130px) rotate(-504deg) scale(.85); }
+        80%  { transform: rotate(576deg) translateX(130px) rotate(-576deg) scale(0.68); }
+        100%  { transform: rotate(648deg) translateX(130px) rotate(-648deg) scale(0.63); }
+    }
+}
+@media only screen and (max-width: 991px) {
+    .row {
+        /*background: linear-gradient(#CEFEFF, #F0FFFF);*/
+        background: linear-gradient(#b5fdff, #F0FFFF);
+        height: 100vh;
+    }
+    .title {
+        position:absolute;
+        color: #464646;
+        font-size: 80px;
+        font-family: 'Raleway', sans-serif;
+        margin-left: 8vw;
+        margin-top: 60px;
+        font-weight: 100;
+    }
+    .titleName {
+        position:absolute;
+        font-family: 'Give You Glory', cursive;
+        font-size: 110px;
+        margin-left: 10vw;
+        margin-top: 170px;
+        color: #464646;
+    }
+}
