@@ -1,0 +1,80 @@
+html {
+    min-height: 100vh;
+}
+body {
+    min-height: 100vh;
+}
+.container-fluid {
+  padding: 0px !important;
+}
+.col-md-6 {
+    padding: 0px !important;
+}
+.side1 {
+    display : flex;
+    justify-content : center;
+    align-items : center;
+    background: linear-gradient(#b5fdff, #F0FFFF);
+    min-height : 100vh;
+}
+
+.side2 {
+    display : flex;
+    justify-content : center;
+    align-items : center;
+    background-color:#ffe6cc;
+    background-image: url(../images/cvPic.jpg);
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height : 100vh;
+}
+.portTitle {
+    position: absolute;
+    font-family: Raleway;
+    font-size: 95px;
+    font-weight: 100;
+    z-index: 2;
+}
+.brain {
+    position: absolute;
+    animation: shake 1.5s ease-in-out forwards infinite;
+    margin-top: -170px;
+}
+@keyframes shake {
+    0% {transform: rotate(0deg);}
+    85% {transform: rotate(0deg);}
+    88% {transform: rotate(3deg);}
+    91% {transform: rotate(-3deg);}
+    94% {transform: rotate(3deg);}
+    97% {transform: rotate(-3deg);}
+    100% {transform: rotate(0deg);}
+}
+.brain2 {
+    position: absolute;
+    animation: shake 2s ease-in-out forwards infinite;
+    margin-top: 210px;
+}
+@keyframes shake {
+    0% {transform: rotate(0deg);}
+    85% {transform: rotate(0deg);}
+    88% {transform: rotate(3deg);}
+    91% {transform: rotate(-3deg);}
+    94% {transform: rotate(3deg);}
+    97% {transform: rotate(-3deg);}
+    100% {transform: rotate(0deg);}
+}
+.cvTitle {
+    font-family: Raleway;
+    font-size: 80px;
+    font-weight: 150;
+}
+.subTitle {
+    font-family: Raleway;
+    font-size: 21px;
+    font-weight: 150;
+}
+.side1link .side1 .portTitle{
+    color: #324a70;
+}
