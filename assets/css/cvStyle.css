@@ -1,0 +1,145 @@
+html {
+    min-height: 100vh;
+}
+body {
+    min-height: 100vh;
+}
+.main {
+    display : flex;
+    justify-content : center;
+    align-items : center;
+    background-image: url(../images/cvPic.jpg);
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-size: 100%; */
+    min-height : 100vh;
+}
+.cvTitle {
+    position: absolute;
+    /* font-family: Raleway; */
+    font-family: VT323;
+    font-size: 110px;
+    font-weight: 150;
+    margin-top: -110px;
+}
+.cvSub {
+    position: fixed;
+    font-family: Raleway;
+    font-weight: 100;
+    font-size: 170px;
+    top: 0;
+    left: 0;
+    margin-top: 20px;
+    margin-left: 20px;
+    z-index: 50;
+}
+.circle1, .circle2, .circle3 {
+    position: fixed;
+    background: black;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    z-index: 10;
+    left: 0;
+    top: 0;
+    margin-left: 90px;
+    opacity: 0.7;
+}
+.circle1 {
+    margin-top: 240px;
+}
+.circle2 {
+    margin-top: 360px;
+}
+.circle3 {
+    margin-top: 480px;
+}
+.navTitle1, .navTitle2, .navTitle3 {
+    font-family: Raleway;
+    font-size: 20px;
+    color: white;
+}
+.navTitle1 {
+    margin-top: 25px;
+    margin-left: 15px;
+}
+.navTitle2 {
+    margin-top: 25px;
+    margin-left: 25px;
+}
+.navTitle3 {
+    margin-top: 25px;
+    margin-left: 7px;
+}
+.main2 {
+    display : flex;
+    justify-content : center;
+    align-items : center;
+    background-position: center;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    min-height : 100vh;
+    z-index: -1 !important;
+    background-image: url(../images/graybox.png);
+}
+.main3 {
+    display : flex;
+    justify-content : center;
+    align-items : center;
+    background-position: center;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    min-height : 100vh;
+    z-index: -1 !important;
+    background-image: url(../images/graybox.png);
+}
+.contactTitle, .bioTitle {
+    position: absolute;
+    margin-top: -200px;
+    font-size: 60px;
+    font-family: Raleway;
+    font-weight: 100;
+}
+.aboutMe {
+    font-family: Raleway;
+}
+.icons {
+    height: 50px;
+}
+#icon {
+    display : flex;
+    justify-content : center;
+    align-items: center;
+    margin-top: 100px;
+}
+.angel:hover {
+    color: black;
+}
+.angel {
+    color: black;
+    font-size: 21px;
+}
+.resume {
+    position: absolute;
+    margin-top: 150px;
+    color: black;
+    font-family: Raleway;
+    font-weight: 100;
+}
+.resume:hover {
+    color: black;
+}
+.phone, .mail {
+    position: absolute;
+    font-family: Raleway;
+    font-size: 21px;
+    font-weight: 100;
+}
+.phone {
+    margin-top: -100px;
+}
+.mail {
+    margin-top: -60px;
+}

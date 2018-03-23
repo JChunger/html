@@ -18,7 +18,7 @@
     <title>Jaehyun Chung</title>
 
     <!-- my css  -->
-    <link href="assets/css/splashStyle.css" rel="stylesheet">
+    <link href="assets/css/mainStyle.css" rel="stylesheet">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
@@ -37,34 +37,116 @@
     <link href="https://fonts.googleapis.com/css?family=Raleway:100" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Raleway:200,300" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Give+You+Glory" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Nothing+You+Could+Do" rel="stylesheet">
 
     <!-- my javscript -->
     <script src="assets/js/cloud.js"></script>
     <script src="assets/js/mySlick.js"></script>
 
+    <!--Slick Carousel-->
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+
 </head>
 <body>
+
 <div class="container-fluid">
     <div class="row">
-        <div class="col-md-6">
-            <a class="side1link" href="index.html">
-                <div class="side1">
-                    <h1 class="portTitle">portfolio</h1>
+
+        <!--SIDE 1-->
+        <div class="col-md-5">
+            <div class="side1">
+                <h1 class="title">the ideas of</h1>
+                <h1 class="titleName">Jaehyun <br><span class="lastName">Chung</span></h1>
+                <div class="brainArea">
+                <div>
                     <img class="brain" src="assets/images/brainIcon256.png">
-                    <!--<img class="brain2" src="assets/images/brainIcon256.png">-->
                 </div>
-            </a>
+                <img class="lightningOne" src="assets/images/lightning.png">
+                <img class="lightningTwo" src="assets/images/lightning.png">
+                <img class="lightningThree" src="assets/images/lightning.png">
+                <img class="lightningFour" src="assets/images/lightning.png">
+                </div>
+                <div class="miniClouds">
+                    <div>
+                        <img class="subCloud1" src="assets/images/cloud.png">
+                        <div>
+                            <img class="subCloud2" src="assets/images/cloud.png">
+                        </div>
+                        <div>
+                            <img class="subCloud3" src="assets/images/cloud.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="col-md-6">
+
+        <!--SIDE 2-->
+        <div class="col-md-7">
             <div class="side2">
-                <h1 class="cvTitle">CV</h1>
-                <p class="subTitle">coming soon</p>
+                <div class="outer">
+
+                <div class="car">
+
+                    <div class="cloudArea">
+                        <div class="mainAnim1"  class="hello">
+                            <a href="https://github.com/JChunger" target="_blank">
+                            <img class="thinkIcon1" src="assets/images/githubLogo.png">
+                            </a>
+                        </div>
+                        <div class="mainAnim2">
+                            <a href="./jaehyunchung2018.pdf" target="_blank">
+                            <img class="thinkIcon2" src="assets/images/resumeIcon.png">
+                            </a>
+                        </div>
+                        <div class="mainAnim3">
+                            <a href="https://devpost.com/JaeChung" target="_blank">
+                            <img class="thinkIcon3" src="assets/images/devLogo.png">
+                            </a>
+                        </div>
+                        <div class="mainAnim4">
+                            <a href="https://github.com/JChunger/Photos" target="_blank">
+                            <img class="thinkIcon4" src="assets/images/photosLogo.png">
+                            </a>
+                        </div>
+                        <div class="mainAnim5">
+                            <a href="https://www.linkedin.com/in/jaehyunchung/" target="_blank">
+                            <img class="thinkIcon5" src="assets/images/linkedIcon.png">
+                            </a>
+                        </div>
+                        <div id="homeCloud">
+                            <img class="cloud" src="assets/images/cloud.png">
+                        </div>
+                    </div>
+
+                    <div class="aboutMe">
+                        <div>
+                            <img class="cloud2" src="assets/images/cloud.png">
+                        </div>
+                        <div class="summaryJae">
+                            <h1>Hello!</h1>
+                            <p>&bull; I am a second year UofT student studying for<br>a specialist in Computer Science and a major<br>in Statistics.</p>
+                            <p>&bull; I have work experience at CoreSolutions <br> Software, as a developer, and also enjoy attending<br>hackathons. Check out my projects on <a href="https://github.com/JChunger">Github!</a></p>
+                            <p class="myLangs">&bull; Here are some languages that I know:</p>
+                            <p class="indentList"><br>&bull;Java, C, Python (Experienced)<br>&bull;html, css (Experienced) <br>&bull;Javascript, Jquery, Node (Beginner) <br>&bull;Verilog (Intermediate) </p>
+                            <p>Find out more about me on my <a href="./jaehyunchung2018.pdf" target="_blank">resume</a>!</p>
+                            <img class="picture" src="assets/images/portrait.jpeg">
+                        </div>
+                    </div>
+
+                </div>
+
+                <!--
+                <div id="aboutCloud">
+                    <img class="cloud" src="assets/images/cloud.png">
+                </div>
+                -->
+                </div>
             </div>
         </div>
     </div>
 </div>
 <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="slick/slick.min.js"></script>
 </body>
 </html>

@@ -68,6 +68,7 @@ body {
     font-family: Raleway;
     font-size: 80px;
     font-weight: 150;
+    color: black;
 }
 .subTitle {
     font-family: Raleway;
@@ -76,4 +77,7 @@ body {
 }
 .side1link .side1 .portTitle{
     color: #324a70;
+}
+.side2link .side2 .cvTitle{
+    color: black;
 }
