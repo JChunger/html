@@ -1,0 +1,35 @@
+.card {
+    box-shadow: 0 20px 27px rgba(0, 0, 0, 0.08);
+    margin-bottom: 40px;
+}
+
+@media (max-width: 1200px) {
+    .card {
+        margin-left: 150px;
+    }
+}
+@media (max-width: 991px) {
+    .card {
+        margin-left: 50px;
+    }
+}
+
+.card-title {
+    font-family: Montserrat
+}
+.card-text {
+    font-family: Montserrat;
+    max-width: 430px;
+}
+.githubLink {
+    height: 40px;
+    margin-left: 440px;
+    margin-top: -40px;
+}
+
+#metroTiles.container:before,
+#metroTiles.container:after,
+#metroTiles.row:before,
+#metroTiles.row:after {
+    content: normal; // IE doesn't support `initial`
+}

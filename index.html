@@ -18,9 +18,15 @@
     <title>Jaehyun Chung</title>
 
     <!-- my css  -->
-    <link href="assets/css/splashStyle.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/bioStyle.css" rel="stylesheet">
+    <link href="assets/css/linkStyle.css" rel="stylesheet">
+    <link href="assets/css/projectStyle.css" rel="stylesheet">
+    <link href="assets/css/timeline.css" rel="stylesheet">
+    <link href="assets/css/metroStyle.css" rel="stylesheet">
 
     <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
           integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
@@ -32,40 +38,246 @@
     <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.2/jquery-ui.min.js"></script>
 
     <!-- Google fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Bungee" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Raleway:100" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Raleway:200,300" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Give+You+Glory" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Nothing+You+Could+Do" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:300,400" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300" rel="stylesheet">
+
 
     <!-- my javscript -->
-    <script src="assets/js/cloud.js"></script>
-    <script src="assets/js/mySlick.js"></script>
-
+    <script src="assets/js/cv.js"></script>
 </head>
 <body>
-<div class="container-fluid">
-    <div class="row">
-        <div class="col-md-6">
-            <a class="side1link" href="splash_index.html">
-                <div class="side1">
-                    <h1 class="portTitle">portfolio</h1>
-                    <img class="brain" src="assets/images/brainIcon256.png">
-                    <!--<img class="brain2" src="assets/images/brainIcon256.png">-->
+
+    <!-- MAIN SECTION -->
+<section id="home">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="main">
+                    <h1 class="cvTitle"><span>Jae</span>hyun<br>Chung</h1>
+
+                    <a href="#home" class="nav1"><div class="circle1"><p class="navTitle1">home</p></div></a>
+                    <a href="#bio"><div class="circle2"><p class="navTitle2">bio</p></div></a>
+                    <a href="#contact"><div class="circle3"><p class="navTitle3">links</p></div></a>
+                    <a href="#projects"><div class="circle4"><p class="navTitle4">work</p></div></a>
+
+                    <div class="subTitle1">
+                        <h1 class="Sub1">Hi, I'm a student and aspiring developer.</h1>
+                    </div>
                 </div>
-            </a>
-        </div>
-        <div class="col-md-6">
-            <a class="side2link" href="cv_index.html">
-                <div class="side2">
-                    <h1 class="cvTitle">CV</h1>
-                </div>
-            </a>
+            </div>
         </div>
     </div>
-</div>
+</section>
+
+    <!-- BIO SECTION -->
+    <section id="bio">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="main2">
+    
+                        <h1 class="bioTitle">Bio<span>:</span></h1>
+                        <div class="subTitle2">
+                            <h1 class="Sub2">Get to know me a bit in here.</h1>
+                        </div>
+                        <div class="mainBio">
+                            <p>Hi I am Jaehyun Chung. I am currently studying computer science (third year)
+                                at the University of Toronto. I like to develop meaningful applications
+                                and to work on projects where I will have a deep impact. Chat with me if 
+                                you want to learn more about me.
+                            </p>
+                        </div>
+
+                        <!-- <a href="#home"><div class="circleBio1"><p class="navTitle5B">home</p></div></a>
+                        <a href="#bio"><div class="circleBio2"><p class="navTitle6B">bio</p></div></a>
+                        <a href="#contact"><div class="circleBio3"><p class="navTitle7B">links</p></div></a>
+                        <a href="#work"><div class="circleBio4"><p class="navTitle8B">work</p></div></a> -->
+
+                        <div class="box">
+                            <ul id="first-list">
+                                <li>
+                                    <span></span>
+                                    <img class="core" src="assets/images/HW.png">
+                                    <div class="title">Hack Western: Bitcoin/Blockchain Winner</div>
+                                    <div class="info">Bitfor.me: Task-for-bitcoin exchange platform<br>One of my first software/tech/web related experiences. Made me super excited to learn more and work on interesting projects.<br></div>
+                                    <div class="time">
+                                        <span>2015</span>
+                                        <span></span>
+                                    </div>
+                                </li>
+                                <li class="ex1">
+                                    <span></span>
+                                    <img class="core" src="assets/images/core.png">
+                                    <div class="title">CoreSolutions Software Inc</div>
+                                    <div class="info">Web Development Intern <br>Developed and designed web UIs. Implemented controller functionalities in various web apps. This was my first experience in a development workspace.</div>
+                                    <div class="time">
+                                        <span>2016</span>
+                                        <span></span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <span></span>
+                                    <img class="core" src="assets/images/uoft.png">
+                                    <div class="title">University of Toronto</div>
+                                    <div class="info">Class of 2020<br>Computer Science Spec. and Statistics Major<br>Course material includes data structures, algorithms, software design, systems programming.<br></div>
+                                    <div class="time">
+                                        <span>2016</span>
+                                        <span></span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <span></span>
+                                    <img class="core" src="assets/images/uhn.jpg">
+                                    <div class="title">UHN: Princess Margaret Cancer Centre</div>
+                                    <div class="info">Software Development Intern<br>Developing an automated image analysis application for medical imaging protocol analysis and aggregate data extraction.</div>
+                                    <div class="time">
+                                        <span>2018</span>
+                                        <span></span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <span></span>
+                                    <img class="core" src="assets/images/mystery.png">
+                                    <div class="title">Open to future opportunities</div>
+                                    <div class="info">Software Role<br>I would like to work on cutting-edge, meaningful projects in a fast-paced, high energy, dynamic environment.</div>
+                                    <div class="time">
+                                        <span>2019</span>
+                                        <span></span>
+                                    </div>
+                                </li>
+                                
+                            </div> 
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects SECTION -->
+    <section id="projects">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="mainBioSection">
+        
+                            <h1 class="projectTitle">Projects<span>:</span></h1>
+                            <div class="mainDesc">
+                                <p>I like to work on side projects with interesting technologies and attend
+                                    hackathons with friends. Here's some of my work.
+                                </p>
+                            </div>
+                                
+                            <div class="container">
+                                <div class="row" id="metroTiles">
+                                    <div class="col-xl-6">
+                                        <div class="card" style="width:520px">
+                                            <img class="card-img-top" src="assets/images/Connect.gif" alt="Card image" style="width:100%">
+                                            <div class="card-body">
+                                                <h4 class="card-title">Connect4: PIXI.js experiment</h4>
+                                                <p class="card-text">My first attempt at using the PIXIjs creation engine. Implemented a cool bit-board data structure for the backend.</p>
+                                                <a href="https://github.com/JChunger"><img class="githubLink" src="assets/images/github-logo.png"></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-6">
+                                            <div class="card" style="width:520px;">
+                                                    <img class="card-img-top" src="assets/images/overseer.jpg" alt="Card image" style="width:100%">
+                                                    <div class="card-body">
+                                                        <h4 class="card-title">Overseer: A Google Action App</h4>
+                                                        <p class="card-text">UofTHacks 2018 project entry. A Google Action App to help students study. Created using js, DialogFlow and Firebase.</p>
+                                                        <a href="https://github.com/JChunger"><img class="githubLink" src="assets/images/github-logo.png"></a>
+                                                    </div>
+                                                </div>
+                                    </div>
+                                    <div class="col-xl-6">
+                                            <div class="card" style="width:520px">
+                                                    <img class="card-img-top" src="assets/images/PhotosDetailPicture.PNG" alt="Card image" style="width:100%">
+                                                    <div class="card-body">
+                                                        <h4 class="card-title">Photos: Java MVC App</h4>
+                                                        <p class="card-text">A full photo management application using the MVC design pattern. Front-end created with JavaFx.</p>
+                                                        <a href="https://github.com/JChunger"><img class="githubLink" src="assets/images/github-logo.png"></a>
+                                                    </div>
+                                                </div>
+                                    </div>
+                                    <div class="col-xl-6">
+                                            <div class="card" style="width:520px">
+                                                    <img class="card-img-top" src="assets/images/portfoliosite.gif" alt="Card image" style="width:100%">
+                                                    <div class="card-body">
+                                                        <h4 class="card-title">JaehyunChung.com : Past Version</h4>
+                                                        <p class="card-text">The previous iteration of this website. My Attempt to be free from a typical Bootstrapish style webpage.</p>
+                                                        <a href="https://github.com/JChunger"><img class="githubLink" src="assets/images/github-logo.png"></a>
+                                                    </div>
+                                                </div>
+                                    </div>
+
+                                    <!-- <div class="image-block col-md-6" style="background: url(assets/images/PhotosDetailPicture.png) no-repeat center ;"></div>
+                                    <div class="image-block col-md-6" style="background: url(assets/images/overseer.jpg) no-repeat center;"></div>
+                                    <div class="image-block col-md-6" style="background: url(assets/images/Connect.gif) no-repeat center;"></div>
+                                    <div class="image-block col-md-6" style="background: url(assets/images/portfoliosite.gif) no-repeat center;"></div> -->
+                                </div>
+                            </div>
+                            
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <!-- Contact SECTION -->
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="main3">
+    
+                        <h1 class="contactTitle">Contact Me<span>?</span></h1>
+                        <div class="subTitle">
+                            <h1 class="Sub">Let's chat. Reach me on the following:</h1>
+                        </div>
+                        <h1 class="phone">(226) 700-9494</h1>
+                        <h1 class="mail">jaehyun.chung@mail.utoronto.ca</h1>
+                        <div class="col-md-4" id="icon"></div>
+                        <div class="col-md-1" id="icon">
+                            <a href="#home"><div class="circle5"><p class="navTitle5">home</p></div></a>
+                            <a href="https://github.com/JChunger"><img class="icons" src="assets/images/github-logo.png"></a>
+                        </div>
+                        <div class="col-md-1" id="icon">
+                            <a href="https://www.linkedin.com/in/jaehyun-chung-215886164/"><img class="icons" src="assets/images/linkedin-logo.png"></a>
+                            <a href="#bio"><div class="circle6"><p class="navTitle6">bio</p></div></a>
+                        </div>
+                        <div class="col-md-1" id="icon">
+                            <a href="jaehyunchung2018.pdf"><img class="icons" src="assets/images/resumeIcon.png"></a>
+                            <a href="#projects"><div class="circle7"><p class="navTitle7">work</p></div></a>
+                        </div>
+                        <div class="col-md-1" id="icon">
+                            <a href="https://angel.co/jaehyun-chung"><img class="icons" src="assets/images/angel-logo.png"></a>
+                            <a href="#contact"><div class="circle8"><p class="navTitle8">links</p></div></a>
+                        </div>
+                        <div class="col-md-4" id="icon"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
 <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="vanilla-tilt.js"></script>
+<script type="text/javascript">
+	VanillaTilt.init(document.querySelector(".main"), {
+        max: 25,
+		speed: 200,
+        reverse: true,
+	});
+</script>
 </body>
 </html>

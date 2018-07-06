@@ -1,0 +1,111 @@
+html {
+    min-height: 100vh;
+}
+body {
+    min-height: 100vh;
+    background-color: #fefefb !important;
+}
+.main {
+    display : flex;
+    justify-content : center;
+    align-items : center;
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    min-height: 750px;
+    background-size: 80%;
+    transform-style: preserve-3d;
+}
+.cvTitle {
+    position: absolute;
+    /* font-family: Raleway; */
+    font-family: VT323;
+    font-size: 170px;
+    margin-top: -100px;
+    line-height: 130px;
+    text-shadow: 5px 6px 4px #a6a6a6;
+    letter-spacing: 10px;
+    margin-left: 50px;
+    transform: translateZ(40px);
+}
+
+.circle1, .circle2, .circle3, .circle4 {
+    position: absolute;
+    background: #a8c7c0;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    z-index: 10;
+    margin-left: -350px;
+    opacity: 0.7;
+    box-shadow: 0 20px 27px rgba(0, 0, 0, 0.25);
+}
+.circle2:hover, .circle3:hover, .circle4:hover {
+    transform: translateZ(30px);
+}
+.circle1 {
+    margin-top: -250px;
+    background: #5d9286 !important;
+}
+.circle2 {
+    margin-top: -150px;
+}
+.circle3 {
+    margin-top: 50px;
+}
+.circle4 {
+    margin-top: -50px;
+}
+.navTitle1, .navTitle2, .navTitle3, .navTitle4 {
+    font-family: 'Montserrat';
+    font-size: 17px;
+    font-weight: 100;
+    color: black;
+}
+.navTitle1 {
+    margin-top: 28px;
+    margin-left: 16px;
+}
+.navTitle2 {
+    margin-top: 28px;
+    margin-left: 28px;
+}
+.navTitle3 {
+    margin-top: 27px;
+    margin-left: 23px;
+}
+.navTitle4 {
+    margin-top: 27px;
+    margin-left: 20px;
+}
+.subTitle1 {
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 65px;
+    font-family: 'Montserrat';
+}
+.subTitle1 .Sub1 {
+    font-size: 27px;
+    color: #595959;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .1em solid #40E0D0; /* The typwriter cursor */
+    letter-spacing: .05em; /* Adjust as needed */
+    white-space: nowrap; /* Keeps the content on a single line */
+    animation:
+      typing 11s steps(40, end) infinite,
+      blink-caret .75s step-end infinite;
+}
+/* The typing effect */
+@keyframes typing {
+  /* from { width: 0 }
+  to { width: 100% } */
+  0% { width: 0 }
+  33% { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #40E0D0; }
+}

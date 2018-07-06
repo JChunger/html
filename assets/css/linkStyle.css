@@ -1,0 +1,135 @@
+.main3 {
+    display : flex;
+    justify-content : center;
+    align-items : center;
+    background-position: center;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    min-height : 600px;
+    max-height: 600px;
+    z-index: -1 !important;
+}
+.contactTitle {
+    position: absolute;
+    margin-top: -100px;
+    margin-left: 10px;
+    font-size: 90px;
+    font-family: VT323;
+    font-weight: 100;
+}
+.contactTitle span {
+    color: turquoise;
+    font-size: 100px;
+}.circle5, .circle6, .circle7, .circle8 {
+    display: none;
+    position: absolute;
+    background: #a8c7c0;
+    width: 80px;
+    margin-top: -400px;
+    height: 80px;
+    border-radius: 50%;
+    z-index: 10;
+    opacity: 0.7;
+    box-shadow: 0 20px 27px rgba(0, 0, 0, 0.25);
+}
+.circle5:hover, .circle6:hover, .circle7:hover {
+    transform: translateY(-7px);
+}
+.circle5 {
+    margin-left: -15px;
+}
+.circle6 {
+    margin-left: -65px;
+}
+.circle7 {
+    margin-left: -65px;
+}
+.circle8 {
+    margin-left: -65px;
+    background: #5d9286 !important;
+}
+.navTitle5, .navTitle6, .navTitle7, .navTitle8 {
+    font-family: 'Source Code Pro';
+    font-size: 17px;
+    font-weight: 100;
+    color: black;
+}
+.navTitle5 {
+    margin-top: 28px;
+    margin-left: 20px;
+}
+.navTitle6 {
+    margin-top: 28px;
+    margin-left: 25px;
+}
+.navTitle7 {
+    margin-top: 27px;
+    margin-left: 20px;
+}
+.navTitle8 {
+    margin-top: 27px;
+    margin-left: 15px;
+}
+.icons {
+    height: 50px;
+}
+#icon {
+    display : flex;
+    justify-content : center;
+    align-items: center;
+    margin-top: 300px;
+}
+.angel:hover {
+    color: black;
+}
+.angel {
+    color: black;
+    font-size: 21px;
+}
+.resume:hover {
+    color: black;
+}
+.phone, .mail {
+    position: absolute;
+    font-family: 'Montserrat';
+    font-size: 21px;
+    font-weight: 400;
+    color: #595959;
+}
+.phone {
+    margin-top: 40px;
+}
+.mail {
+    margin-top: 80px;
+}
+.subTitle {
+    position: absolute;
+    margin-top: -10px;
+    font-family: 'Montserrat';
+}
+.subTitle .Sub {
+    font-size: 27px;
+    color: #595959;
+    margin: 0 auto;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .1em solid #40E0D0; /* The typwriter cursor */
+    letter-spacing: .05em; /* Adjust as needed */
+    white-space: nowrap; /* Keeps the content on a single line */
+    animation:
+      typing 9s steps(40, end) infinite,
+      blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  /* from { width: 0 }
+  to { width: 100% } */
+  0% { width: 0 }
+  33% { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #40E0D0; }
+}

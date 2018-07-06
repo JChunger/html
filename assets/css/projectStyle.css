@@ -1,0 +1,95 @@
+.mainBioSection {
+    display : flex;
+    flex-wrap: wrap;
+    justify-content : flex-start;
+    /* background-position: center; */
+    background-size: 80%;
+    background-repeat: no-repeat;
+    height : 100vh;
+    min-height: 1280px;
+    max-height: 1280px;
+    z-index: -1 !important;
+}
+.projectTitle {
+    position: absolute;
+    margin-left: 10px;
+    font-size: 90px;
+    font-family: VT323;
+    font-weight: 100;
+}
+.projectTitle span {
+    color: turquoise;
+    font-size: 100px;
+}
+
+.mainDesc {
+    font-family: 'Source Code Pro';
+    font-size: 22px;
+    font-weight: 300;
+    color: #808080;
+    margin-top: 130px;
+}
+.mainDesc p {
+    background-color: #e0e0e0;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 20px 27px rgba(0, 0, 0, 0.07);
+}
+
+.circleProject1, .circleProject2, .circleProject3, .circleProject4 {
+    position: absolute;
+    align-items: center;
+    background: #a8c7c0;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    z-index: 10;
+    opacity: 0.7;
+    box-shadow: 0 20px 27px rgba(0, 0, 0, 0.25);
+    margin-top: -310px;
+    margin-top: -330px;
+}
+.circleProject1:hover, .circleProject2:hover, .circleProject3:hover, .circleProject4:hover {
+    transform: translateY(-7px);
+}
+.circleProject1 {
+}
+.circleProject2 {
+    margin-left: 100px;
+}
+.circleProject3 {
+    margin-left: 200px;
+}
+.circleProject4 {
+    margin-left: 300px;
+}
+.navTitle5P, .navTitle6P, .navTitle7P, .navTitle8P {
+    position: absolute;
+    font-family: 'Source Code Pro';
+    font-size: 17px;
+    font-weight: 100;
+    color: black;
+}
+.navTitle5P {
+    margin-top: 28px;
+    margin-left: 20px;
+}
+.navTitle6P {
+    margin-top: 28px;
+    margin-left: 25px;
+}
+.navTitle7P {
+    margin-top: 27px;
+    margin-left: 15px;
+}
+.navTitle8P {
+    margin-top: 27px;
+    margin-left: 20px;
+}
+
+@media (max-width: 1200px) {
+    .mainBioSection {
+        min-height: 2150px;
+        max-height: 2150px;
+    }
+}

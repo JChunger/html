@@ -1,0 +1,124 @@
+.box{
+    margin-left: 10%;
+    margin-top: 220px;
+    height: 1080px;
+    overflow: hidden;
+    padding: 10px 0 40px 60px;
+    position: absolute;
+}
+
+.box ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    transition: all 0.5s linear;
+    top:0
+}
+
+.box ul:last-of-type{top:80px}
+
+.box ul:before{
+    content: "";
+    display: block;
+    width: 0;
+    height: 100%;
+    border:1px solid #f2f2f2;
+    position: absolute;
+    top:0;
+    left:30px
+}
+
+.box ul li{
+    margin: 20px 60px 60px;
+    position: relative;
+    padding: 10px 20px;
+    min-height: 140px;
+    max-height: 140px;
+    min-width: 600px;
+    max-width: 600px;
+    background: white;
+    color:#808080;
+    border-radius: 10px;
+    line-height: 20px;
+    /* width: 60%; */
+    box-shadow: 0 5px 27px 15px rgba(0, 0, 0, 0.05);
+}
+
+@media  (max-width: 991px) {
+    .box {
+        margin-left: -30px;
+    }
+}
+
+
+.box ul li > span{
+    content: "";
+    display: block;
+    width: 0;
+    height: 100%;
+    border:1px solid #f2f2f2;
+    position: absolute;
+    top:0;
+    left:-30px
+}
+
+.box ul li > span:before,.box ul li > span:after{
+    content: "";
+    display: block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background:turquoise;
+    border:2px solid #f2f2f2;
+    position: absolute;
+    left:-7.5px
+}
+
+.box ul li > span:before{top:-10px}
+.box ul li > span:after{display: none}
+
+.box .title{
+    margin-bottom: 5px;
+    margin-top: 8px;
+    font-family: 'Montserrat';
+    font-weight: 300;
+    font-size: 20px;
+    margin-left: 120px;
+}
+
+.box img {
+    margin-top: 8px;
+}
+
+.box .info {
+    font-family: 'Montserrat';
+    font-weight: 300;
+    margin-left: 120px;
+
+}
+
+.box .time span{
+    position: absolute;
+    left: -95px;
+    margin-top: 1px;
+    color:#cfcfcf;
+    font-size:160%;
+    font-weight: bold;
+    font-family: 'Source Code Pro';
+    font-weight: 200;
+}
+.box .time span:first-child{top:-16px}
+
+.box ul:last-of-type .arrow{
+    position: absolute;
+    top: 105%;
+    left: 22%;
+    transform: rotateX(180deg);
+    cursor: pointer;
+}
+
+.core {
+    position: absolute;
+    width: 100px;
+}
