@@ -8,9 +8,9 @@ body {
 .main {
     display : flex;
     justify-content : center;
-    /* align-items : center; */
+    align-items : center;
     background-size: auto;
-    /* background-position: center; */
+    background-position: center;
     background-repeat: no-repeat;
     height: 100vh;
     min-height: 750px;
@@ -22,8 +22,8 @@ body {
     /* font-family: Raleway; */
     font-family: VT323;
     font-size: 170px;
-    /* margin-top: -100px; */
-    margin-top: 190px;
+    margin-top: -100px;
+    /* margin-top: 190px; */
     line-height: 130px;
     text-shadow: 5px 6px 4px #a6a6a6;
     letter-spacing: 10px;
@@ -46,21 +46,21 @@ body {
     transform: translateZ(30px);
 }
 .circle1 {
-    /* margin-top: -250px; */
-    margin-top: 170px;
+    margin-top: -250px;
+    /* margin-top: 170px; */
     background: #5d9286 !important;
 }
 .circle2 {
-    /* margin-top: -150px; */
-    margin-top: 270px;
+    margin-top: -150px;
+    /* margin-top: 270px; */
 }
 .circle3 {
-    /* margin-top: 50px; */
-    margin-top: 370px;
+    margin-top: 50px;
+    /* margin-top: 370px; */
 }
 .circle4 {
-    /* margin-top: -50px; */
-    margin-top: 470px;
+    margin-top: -50px;
+    /* margin-top: 470px; */
 }
 .navTitle1, .navTitle2, .navTitle3, .navTitle4 {
     font-family: 'Montserrat';
@@ -86,8 +86,8 @@ body {
 }
 .subTitle1 {
     position: absolute;
-    /* margin-top: 80px; */
-    margin-top: 470px;
+    margin-top: 80px;
+    /* margin-top: 470px; */
     margin-left: 65px;
     font-family: 'Montserrat';
 }
