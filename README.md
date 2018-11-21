@@ -1,2 +1,2 @@
 # Portfolio Website
-jaehyunchung.com : personal portfolio website!
+Check it out at **jaehyunchung.com** to learn more about what I do.
